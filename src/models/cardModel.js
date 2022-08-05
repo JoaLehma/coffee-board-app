@@ -7,6 +7,6 @@ const cardSchema = new Schema({
   content: { type: String, required: true },
 });
 
-const Card = mongoose.models.Category || mongoose.model("Card", cardSchema);
+const Card = mongoose.models.Card || mongoose.model("Card", cardSchema);
 
 export default Card;

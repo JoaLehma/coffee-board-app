@@ -1,11 +1,10 @@
-import "../styles/globals.css";
-import CreateCard from "./create-card";
+import GlobalStyle from "../src/globalStyles";
 
 function MyApp({ Component, pageProps }) {
   return (
     <>
+      <GlobalStyle />
       <Component {...pageProps} />;
-      <CreateCard />
     </>
   );
 }
