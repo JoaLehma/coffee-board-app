@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-export default function CardForm({ categories, product, onSubmit }) {
+export default function CardForm({ author, content, onSubmit }) {
   const [author, setAuthor] = useState("");
   const [content, setContent] = useState("");
 
