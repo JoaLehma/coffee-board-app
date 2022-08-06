@@ -1,4 +1,4 @@
-export function useFetch() {
+export default function useFetch() {
   return async (url, options) => {
     try {
       const result = await fetch(url, options);
