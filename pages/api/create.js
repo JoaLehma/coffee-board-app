@@ -10,7 +10,7 @@ export default async function handler(request, response) {
     await Card.create(data);
 
     response.status(200).json({
-      message: "product created",
+      message: "card created",
     });
   }
 }

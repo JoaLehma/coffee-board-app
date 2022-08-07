@@ -16,7 +16,7 @@ export async function getCardById(id_) {
 
   const card = await Card.findById(id_);
 
-  const { id, author, content } = category;
+  const { id, author, content } = card;
 
   return { id, author, content };
 }
