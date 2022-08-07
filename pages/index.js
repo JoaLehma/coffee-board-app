@@ -31,14 +31,9 @@ export default function Home({ cards }) {
           <StyledButton>Add new Card</StyledButton>
         </Link>
         {cards.map((card) => {
-          return (
-            <StyledCard key={card.id}>
-              <CardAuthor>{card.author}</CardAuthor>
-              <CardText>{card.content}</CardText>
-            </StyledCard>
-          );
+          console.log(card.author);
+          return <StyledCard key={card.id} card={card} />;
         })}
-        <StyledCard />
       </main>
     </div>
   );

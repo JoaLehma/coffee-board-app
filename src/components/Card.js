@@ -1,6 +1,6 @@
 import { CardContainer, CardAuthor, CardText } from "./StyledCard";
 
-export default function StyledCard(card) {
+export default function StyledCard({ card }) {
   return (
     <CardContainer>
       <CardAuthor>{card.author}</CardAuthor>
