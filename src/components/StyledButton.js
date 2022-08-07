@@ -7,6 +7,7 @@ const StyledButton = styled.button`
   border-radius: 10px;
   color: black;
   box-shadow: 2px 2px 5px black;
+  margin: 10px 0px 10px 0px;
 
   &:hover {
     background-color: lightcoral;

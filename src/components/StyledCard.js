@@ -4,8 +4,8 @@ export const CardContainer = styled.article`
   display: flex;
   flex-direction: column;
   gap: 10px;
-  width: 300px;
-  height: 300px;
+  width: 200px;
+  height: 200px;
   border-radius: 20px;
   background-color: lightgrey;
   padding: 20px;
